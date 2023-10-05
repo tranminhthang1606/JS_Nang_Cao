@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: ghostwhite;
+    font-family: sans-serif;
+}
+.trading_tab_left{
+    border-radius: 20px;
+}
+.request_trading{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 400px;
+    gap: 20px;
+}
+.method{
+    display: flex;
+    max-height: 30px;
+}
+.method div{
+    width: 50%;
+    text-align: center;
+    background: transparent;
+}
+.method div p {
+    background: transparent;
+}
+.method div input{
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+}
+.method button{
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+.in_out_inter{
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
+.container_app{
+    opacity: 1;
+    transition: all 1s;
+}
